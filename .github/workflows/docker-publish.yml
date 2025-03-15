@@ -36,5 +36,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ppuerta1986/nodejs-helloworld-app-educacionit:latest
-          platforms: linux/amd64,linux/arm64
+          tags: ppuerta1986/nodejs-helloworld-app-educacionit:${{ github.run_number }}
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
