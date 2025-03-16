@@ -1,4 +1,4 @@
-# Usa una imagen base de Node.js
+# Usa una imagen base de Node.js para esto
 FROM node:20-alpine
 
 # Establece el directorio de trabajo dentro del contenedor
